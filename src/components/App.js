@@ -19,7 +19,7 @@ const App = () => {
     };
 
     fetchDogImage();
-  }, []); // Empty dependency array ensures the effect runs only once, equivalent to componentDidMount
+  }, []); // Empty dependency array ensures the effect runs only once
 
   return (
     <div>
